@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    color: purple;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.container {
+    background-color: white;
+    width: 50%;
+    height: 80vh;
+    margin-top: 30px;
+}
+
+table, th, tr, td {
+    padding: 5px;
+}
+
+th {
+    padding: 10px 0;
+}
+
+thead tr th {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+tbody tr:nth-child(1) td{
+    font-size: 25px;
+}
+tbody tr:first-child td{
+    padding: 15px;
+}
+tbody tr:first-child i{
+    margin-right: 5px;
+}
+tbody tr:nth-child(2){
+    font-size: 20px;
+    color: green;
+}
+p{
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+    background-color: purple;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.fa-check{
+    color: green;
+}
+.fa-times{
+    color: red;
+}
+tbody tr:nth-child(odd) td:nth-child(1){
+    background-color: rgba(236, 236, 148);
+}
+tbody tr:nth-child(odd) td:nth-child(2){
+    background-color: rgb(174, 235, 174);
+}
+tbody tr:nth-child(odd) td:nth-child(3){
+    background-color: rgb(150, 206, 150);
+}
+tbody tr:nth-child(odd) td:nth-child(4){
+    background-color: rgb(159, 229, 250);
+}
+tbody tr:nth-child(even){
+    background-color: lightgoldenrodyellow;
+}
+tbody tr:last-child{
+    background-color: white;
+}
